@@ -1,0 +1,109 @@
+*
+{
+	box-sizing: border-box;
+}
+
+body
+{
+	margin: 0;
+	background-image:url(img/k.jpg);
+	height: 100vh;
+	background-position: center;
+	background-size: cover;
+
+}
+nav
+{
+	background: skyblue;
+	width: 100%;
+	overflow: auto;
+}
+ul{
+	margin: 0;
+	padding: 0;
+	list-style: none;
+
+}
+li{
+	float: right;
+}
+ nav a
+ {
+ 	width: 140px;
+ 	display: block;
+ 	text-decoration: none;
+ 	text-align: center;
+ 	background: #FFE4E1;
+ 	font-size: 19px;
+ 	color: black;
+ 	padding: 20px 10px;
+ 	font-family: arial;
+
+ }
+ nav a:hover{
+ 	background: #e67e22;
+ 	color: black;
+ 	transition: all 0.5s, ease-in;
+	padding: 20px 0;
+}
+showcase h1{
+	color: #e67e22;
+	font-family: cursive;
+	text-align: center;
+}
+showcase h2{
+	color: #e67e22;
+	font-family: cursive;
+	text-align: center;
+	letter-spacing: 2px;
+
+}
+.category{
+	color:  #e67e22;
+	margin-top: 7%;
+	display: flex;;
+	text-align: center;
+	font-family: cursive;
+	font-weight: bold;
+	font-size: 17px;
+
+
+}
+img{
+	width: 70%;
+	border-radius: 50%;
+
+}
+.btn{
+	background-color: gold;
+	padding: 1rem;
+	border: none;
+	border-radius: 8px;
+	margin-left: 45%;
+
+}
+.pancake, .Veg{
+	padding-left: 1rem;
+
+}
+h3{
+	font-size: 1.5rem;
+	margin: 3%;
+
+}
+h4{
+	font-size: 1.5rem;
+	margin: 3%;
+
+}
+h5{
+	font-size: 1.5rem;
+	margin: 3%;
+
+}
+.clock {
+  font-size: 4em;
+  float: right;
+  color: white;
+  
+}

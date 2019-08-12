@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>dishes</title>
+	<link rel="stylesheet" type="text/css" href="dishes.css">
+</head>
+<body>
+	<nav>
+		<ul>
+			<li><a href="contact.html">CONTACT</a></li>
+			<li><a href="GALLERY.html">GALLERY</a></li>
+			<li><a href="DISHES.HTML">DISH</a></li>
+			<li><a href="MENU.html">MENU</a></li>
+			<li><a href="index.html">HOME</a></li>
+</ul>
+</nav>
+<showcase>
+	<div class="container">
+		<h1>Food taste better when you eat it with your family<h1>
+			<h2>Veg, Non-Veg all kind of snacks are available</h2>
+			<div class="category">
+				<div class="burger">
+					<img src="img/burger.jpg" alt="">
+					<h3>Non-Veg Food</h3>
+					<p>dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+					tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+					quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+					consequat. Excepteur sint occaecat cupidatat no proident, sunt inculpa qui laborum.</p>
+
+
+				</div>
+				<div class="pancake">
+					<img src="img/pancake.jpg" alt="">
+					<h4>DESERTS</h4>
+					<p>dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+					tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+					quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+					consequat. Excepteur sint occaecat cupidatat no proident, sunt inculpa qui laborum.</p>
+				</div>
+				<div class="Veg">
+					<img src="img/Veg.jpg" alt="">
+					<h5>VEGETABLE FOOD</h5>
+					<p>dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+					tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+					quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+					consequat. Excepteur sint occaecat cupidatat noproident, sunt in culpa qui laborum.</p>
+				</div>
+
+			</div>
+			<div class="clock">
+      <script src="home.js"></script>
+      <script>function clock() {// We create a new Date object and assign it to a variable called "time".
+var time = new Date(),
+    
+    // Access the "getHours" method on the Date object with the dot accessor.
+    hours = time.getHours(),
+    
+    // Access the "getMinutes" method with the dot accessor.
+    minutes = time.getMinutes(),
+    
+    
+    seconds = time.getSeconds();
+
+document.querySelectorAll('.clock')[0].innerHTML = harold(hours) + ":" + harold(minutes) + ":" + harold(seconds);
+  
+  function harold(standIn) {
+    if (standIn < 10) {
+      standIn = '0' + standIn
+    }
+    return standIn;
+  }
+}
+setInterval(clock, 1000);
+</script>
+	</div>
+</showcase>
+<!-- end of showcase -->
+<a href=""><button class="btn">read more</button></a>

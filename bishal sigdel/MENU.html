@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<title>Restaurant Menu</title>
+	<link rel="stylesheet" type="text/css" href="css/menu.css">
+</head>
+
+<body>
+
+     
+		<nav>
+		<ul>
+			<li><a href="CONTACT.html">CONTACT</a></li>
+			<li><a href="GALLERY.html">GALLERY</a></li>
+			<li><a href="DISHES.html">DISH</a></li>
+			<li><a href="MENU.html">MENU</a></li>
+			<li><a href="index.html">HOME</a></li>
+		</ul>
+
+	</nav>
+	<div class="menu-body">
+	
+		
+		<div class="menu-section">
+
+			<h2 class="menu-section-title">MAIN COURSE</h2>
+		
+			
+			<div class="menu-item">
+				<div class="menu-item-name">
+					Chicken Burger
+				</div>
+				
+				<div class="menu-item-price">
+					$25
+				</div>
+
+				<div class="menu-item-description">
+					Cheddar cheese, Red Onion, Cheddar Peyniri.
+				</div>
+
+			</div>
+			
+			<div class="menu-item">
+
+				<div class="menu-item-name">
+					Chicken Sizzler
+				</div>
+				
+				<div class="menu-item-price">
+					$35
+				</div>
+
+				<div class="menu-item-description">
+					Stuffed Chicken Breast Served With Sautted Vegetable, french Fries
+				</div>
+				
+			</div>
+			
+			<div class="menu-item">
+
+				<div class="menu-item-name">
+					Meat Ball
+				</div>
+
+				<div class="menu-item-price">
+					$30
+				</div>
+
+				<div class="menu-item-description">
+					House Smoked Mozzarella, Chill Mayo
+				</div>
+
+			</div>
+			
+			<div class="menu-item">
+
+				<div class="menu-item-name">
+					Carbonara
+				</div>
+
+				<div class="menu-item-price">
+					$25
+				</div>
+
+				<div class="menu-item-description">
+					Becon And Ham, Cream and Eggs, Pepper and Parsley
+				</div>
+
+			</div>
+			
+			
+		</div>
+		
+		<div class="menu-section">
+
+			<h2 class="menu-section-title">DRINKS</h2>
+		
+			
+			<div class="menu-item">
+
+				<div class="menu-item-name">
+					Mint Julep
+				</div>
+
+				<div class="menu-item-price">
+					$30
+				</div>
+
+				<div class="menu-item-description">
+					Bourbon And Fresh Mint
+				</div>
+
+			</div>
+		
+
+			<div class="menu-item">
+
+				<div class="menu-item-name">
+					Iced Mocha
+				</div>
+
+				<div class="menu-item-price">
+					$30
+				</div>
+
+				<div class="menu-item-description">
+					Chocolate, Frozen Expresso Drink
+				</div>
+
+			</div>
+			
+			<div class="menu-item">
+
+				<div class="menu-item-name">
+					Iced Choc Coconut
+				</div>
+
+				<div class="menu-item-price">
+					$25
+				</div>
+
+				<div class="menu-item-description">
+					Our Iced Chocolate Include With Coconut
+				</div>
+
+			</div>
+			
+			<div class="menu-item">
+
+				<div class="menu-item-name">
+					Paan Mojito
+				</div>
+
+				<div class="menu-item-price">
+					$45
+				</div>
+
+				<div class="menu-item-description">
+					White Rum, Betel Flavour, Lemon Wedges And Fresh Mint
+				</div>
+
+			</div>
+		
+			
+		</div>
+		<div class="clock">
+      <script src="home.js"></script>
+      <script>function clock() {// We create a new Date object and assign it to a variable called "time".
+var time = new Date(),
+    
+    // Access the "getHours" method on the Date object with the dot accessor.
+    hours = time.getHours(),
+    
+    // Access the "getMinutes" method with the dot accessor.
+    minutes = time.getMinutes(),
+    
+    
+    seconds = time.getSeconds();
+
+document.querySelectorAll('.clock')[0].innerHTML = harold(hours) + ":" + harold(minutes) + ":" + harold(seconds);
+  
+  function harold(standIn) {
+    if (standIn < 10) {
+      standIn = '0' + standIn
+    }
+    return standIn;
+  }
+}
+setInterval(clock, 1000);
+</script>
+	
+	
+		
+	</div>	
+	
+</body>
+</html>
